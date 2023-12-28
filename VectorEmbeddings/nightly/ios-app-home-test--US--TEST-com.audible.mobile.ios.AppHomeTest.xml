@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ip-192-168-10-5.dummy.compute.internal" failures="1" tests="6" name="com.dummyabc.mobile.dummy.AppHomevalidate" time="883.894" errors="0" timestamp="2023-12-22T17:12:02 PST" skipped="3">
+  <testcase classname="com.dummyabc.mobile.dummy.AppHomevalidate" name="testSerialPodcastInNextUpCarousal" time="227.235">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13513773'&gt;C13513773: Verify user sees the oldest episode for the serial podcast in Next up in your Podcasts&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.AppHomevalidate" name="testEpisodeCountInNextUpCarousal" time="365.770">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13513769'&gt;C13513769: Verify 10 episodes displayed Next up in Podcasts Carousel&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.AppHomevalidate" name="testPassiveFeedbackExperience" time="290.889">
+    <failure message="'Not interested in this title' is displayed. expected [false] but found [true]" type="java.lang.AssertionError">
+      java.lang.AssertionError: 'Not interested in this title' is displayed. expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at com.dummyabc.mobile.dummy.AppHomevalidate.testPassiveFeedbackExperience(AppHomevalidate.java:409)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.validateInvoker.invokeMethod(validateInvoker.java:598)
+at org.testng.internal.validateInvoker.invokevalidateMethod(validateInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.validateInvoker$MethodInvocationAgent.invoke(validateInvoker.java:824)
+at org.testng.internal.validateInvoker.invokevalidateMethods(validateInvoker.java:146)
+at org.testng.internal.validateMethodWorker.invokevalidateMethods(validateMethodWorker.java:146)
+at org.testng.internal.validateMethodWorker.run(validateMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.validateRunner.privateRun(validateRunner.java:794)
+at org.testng.validateRunner.run(validateRunner.java:596)
+at org.testng.SuiteRunner.runvalidate(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.validateNG.runSuitesSequentially(validateNG.java:1212)
+at org.testng.validateNG.runSuitesLocally(validateNG.java:1134)
+at org.testng.validateNG.runSuites(validateNG.java:1063)
+at org.testng.validateNG.run(validateNG.java:1031)
+at org.testng.validateNG.privateMain(validateNG.java:1365)
+at org.testng.validateNG.main(validateNG.java:1329)
+
+    </failure>
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13737050'&gt;C13737050: Verify Dark Mode on App Home Passive Feedback Module.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13737073'&gt;C13737073: Verify Action Bottom Sheet on App Home.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13737074'&gt;C13737074: Verify dismissing Action Bottom Sheet.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13772271'&gt;C13772271: Verify if User is able to Access the Passive Feedback Module by Long Pressing the ASIN.&lt;/a&gt;&lt;br&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;video width='300' controls&gt;&lt;source src='' type=''&gt;&lt;/video&gt;&lt;/td&gt;&lt;td&gt;&lt;img src='testArtifacts/2023-12-22-17:08:05.885-com.dummyabc.mobile.dummy.AppHomevalidate.testPassiveFeedbackExperience.png' width='300' &gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=''&gt;Download Video&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href='testArtifacts/2023-12-22-17:08:05.885-com.dummyabc.mobile.dummy.AppHomevalidate.testPassiveFeedbackExperience.png'&gt;Download Screenshot&lt;/a&gt;&lt;a href='testArtifacts/2023-12-22-17:08:05.885-com.dummyabc.mobile.dummy.AppHomevalidate.testPassiveFeedbackExperience.xml'&gt;Download Page Source&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.AppHomevalidate" name="testNextUpCarousalItemUI">
+    <skipped/>
+    <system-out/>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.AppHomevalidate" name="testOneEpisodePerPodcastInNextUp">
+    <skipped/>
+    <system-out/>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.AppHomevalidate" name="testNextUpForEmptyPodcast">
+    <skipped/>
+    <system-out/>
+  </testcase>
+</testsuite>

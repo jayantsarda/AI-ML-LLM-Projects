@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ip-192-168-10-5.dummy.compute.internal" failures="0" tests="1" name="com.dummyabc.mobile.dummy.Adsvalidate" time="455.147" errors="0" timestamp="2023-12-22T17:36:18 PST" skipped="0">
+  <testcase classname="com.dummyabc.mobile.dummy.Adsvalidate" name="testAds" time="455.147">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-ads--US&lt;br&gt;
+  </system-out>
+  </testcase>
+</testsuite>

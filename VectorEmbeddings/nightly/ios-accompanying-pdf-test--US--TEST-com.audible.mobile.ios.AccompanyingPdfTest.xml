@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ip-192-168-10-5.dummy.compute.internal" failures="0" tests="3" name="com.dummyabc.mobile.dummy.AccompanyingPdfvalidate" time="1555.598" errors="1" timestamp="2023-12-22T17:24:01 PST" skipped="0">
+  <testcase classname="com.dummyabc.mobile.dummy.AccompanyingPdfvalidate" name="testAccompanyingPdfOptionsForMultipart" time="421.962">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-accompanying-pdf-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13163146'&gt;C13163146: Verify Accompanying PDF -on single part to multipart book&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.AccompanyingPdfvalidate" name="testAccompanyingPdfOptionsWithHighStandardDownloadQuality" time="566.919">
+    <error message="Expected condition failed: waiting for com.dummyabc.mobile.screens.library.dummy.LibraryScreenIOS$$Lambda$552/0x00000008016d4040@59ea8f1b (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.dummyabc.mobile.screens.library.dummy.LibraryScreenIOS$$Lambda$552/0x00000008016d4040@59ea8f1b (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.dummyabc.mobile.screens.library.dummy.LibraryScreenIOS.waitForLibraryToAppear(LibraryScreenIOS.java:375)
+at com.dummyabc.mobile.dummy.AccompanyingPdfvalidate.testAccompanyingPdfOptionsWithHighStandardDownloadQuality(AccompanyingPdfvalidate.java:90)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.validateInvoker.invokeMethod(validateInvoker.java:598)
+at org.testng.internal.validateInvoker.invokevalidateMethod(validateInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.validateInvoker$MethodInvocationAgent.invoke(validateInvoker.java:824)
+at org.testng.internal.validateInvoker.invokevalidateMethods(validateInvoker.java:146)
+at org.testng.internal.validateMethodWorker.invokevalidateMethods(validateMethodWorker.java:146)
+at org.testng.internal.validateMethodWorker.run(validateMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.validateRunner.privateRun(validateRunner.java:794)
+at org.testng.validateRunner.run(validateRunner.java:596)
+at org.testng.SuiteRunner.runvalidate(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.validateNG.runSuitesSequentially(validateNG.java:1212)
+at org.testng.validateNG.runSuitesLocally(validateNG.java:1134)
+at org.testng.validateNG.runSuites(validateNG.java:1063)
+at org.testng.validateNG.run(validateNG.java:1031)
+at org.testng.validateNG.privateMain(validateNG.java:1365)
+at org.testng.validateNG.main(validateNG.java:1329)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.all({AppiumBy.accessibilityId: titles_content_collection_view,AppiumBy.iOSClassChain: **/XCUIElementTypeScrollView,AppiumBy.accessibilityId: titles_detail_content_collection_view,AppiumBy.accessibilityId: genres_detail_content_collection_view,By.xpath: //XCUIElementTypeOther[@name='Vertical scroll bar, 1 page']/parent::XCUIElementTypeScrollView})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:125)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4.isDisplayed(&lt;generated&gt;)
+at com.dummyabc.mobile.screens.library.dummy.LibraryScreenIOS.lambda$waitForLibraryToAppear$0(LibraryScreenIOS.java:375)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 29 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@37b48520 (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:98)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:118)
+... 33 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({AppiumBy.accessibilityId: titles_content_collection_view,AppiumBy.iOSClassChain: **/XCUIElementTypeScrollView,AppiumBy.accessibilityId: titles_detail_content_collection_view,AppiumBy.accessibilityId: genres_detail_content_collection_view,By.xpath: //XCUIElementTypeOther[@name='Vertical scroll bar, 1 page']/parent::XCUIElementTypeScrollView})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '12.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:57)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$0(AppiumElementLocator.java:119)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:171)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:164)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 35 more
+
+    </error>
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-accompanying-pdf-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13163144'&gt;C13163144: Verify PDF download with different download quality options&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13567177'&gt;C13567177: Verify PDF get downloded when user download the book&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13567178'&gt;C13567178: Verify PDF get deleted when user the delete the downloaded book&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13567179'&gt;C13567179: Verify PDF download with different download quality options&lt;/a&gt;&lt;br&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;video width='300' controls&gt;&lt;source src='' type=''&gt;&lt;/video&gt;&lt;/td&gt;&lt;td&gt;&lt;img src='testArtifacts/2023-12-22-17:23:55.509-com.dummyabc.mobile.dummy.AccompanyingPdfvalidate.testAccompanyingPdfOptionsWithHighStandardDownloadQuality.png' width='300' &gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=''&gt;Download Video&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href='testArtifacts/2023-12-22-17:23:55.509-com.dummyabc.mobile.dummy.AccompanyingPdfvalidate.testAccompanyingPdfOptionsWithHighStandardDownloadQuality.png'&gt;Download Screenshot&lt;/a&gt;&lt;a href=''&gt;Download Page Source&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.AccompanyingPdfvalidate" name="testAccompanyingPdfOptions" time="566.717">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-accompanying-pdf-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13159904'&gt;C13159904: Verify user able to see Accompanying PDF option from Player More menu&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13163088'&gt;C13163088: Verify user able to see Accompanying PDF option from Chapters menu&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13163114'&gt;C13163114: Verify user able to open PDF&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13163140'&gt;C13163140: Verify user able to close PDF&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13163146'&gt;C13163146: Verify Accompanying PDF -on single part to multipart book&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13163144'&gt;C13163144: Verify PDF download with different download quality options&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+</testsuite>

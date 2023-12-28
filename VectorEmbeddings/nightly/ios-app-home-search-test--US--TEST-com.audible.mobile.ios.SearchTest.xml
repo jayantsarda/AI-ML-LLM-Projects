@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ip-192-168-10-5.dummy.compute.internal" failures="2" tests="18" name="com.dummyabc.mobile.dummy.Searchvalidate" time="2782.946" errors="0" timestamp="2023-12-22T18:26:02 PST" skipped="5">
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testClearSearchText" time="179.604">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993264'&gt;C12993264: Clear search text bar&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="libraryAndAllSearchvalidate" time="207.271">
+    <failure message="Pdp screen for title Haunted not displayed. expected [true] but found [false]" type="java.lang.AssertionError">
+      java.lang.AssertionError: Pdp screen for title Haunted not displayed. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.dummyabc.mobile.dummy.Searchvalidate.libraryAndAllSearchvalidate(Searchvalidate.java:629)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.validateInvoker.invokeMethod(validateInvoker.java:598)
+at org.testng.internal.validateInvoker.invokevalidateMethod(validateInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.validateInvoker$MethodInvocationAgent.invoke(validateInvoker.java:824)
+at org.testng.internal.validateInvoker.invokevalidateMethods(validateInvoker.java:146)
+at org.testng.internal.validateMethodWorker.invokevalidateMethods(validateMethodWorker.java:146)
+at org.testng.internal.validateMethodWorker.run(validateMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.validateRunner.privateRun(validateRunner.java:794)
+at org.testng.validateRunner.run(validateRunner.java:596)
+at org.testng.SuiteRunner.runvalidate(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.validateNG.runSuitesSequentially(validateNG.java:1212)
+at org.testng.validateNG.runSuitesLocally(validateNG.java:1134)
+at org.testng.validateNG.runSuites(validateNG.java:1063)
+at org.testng.validateNG.run(validateNG.java:1031)
+at org.testng.validateNG.privateMain(validateNG.java:1365)
+at org.testng.validateNG.main(validateNG.java:1329)
+
+    </failure>
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: Search String: Haunted, Expected Title: Haunted Mobile, Search Type: LIBRARY,&lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993256'&gt;C12993256: Search content which is available in Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993258'&gt;C12993258: Search a string which is not searchable.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358253'&gt;C13358253: "No Results Found" should be displayed in My Library Results if the keyword doesn't match for any books present in the Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993997'&gt;C12993997: Search library with matching query&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993261'&gt;C12993261: Verify search navigation from Library Screen.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993259'&gt;C12993259: Search by Author name.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/2299817'&gt;C2299817: Verify UI&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358304'&gt;C13358304: Verify upon clicking any book in Results user lands on the PDP page.&lt;/a&gt;&lt;br&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;video width='300' controls&gt;&lt;source src='' type=''&gt;&lt;/video&gt;&lt;/td&gt;&lt;td&gt;&lt;img src='testArtifacts/2023-12-22-17:57:29.604-com.dummyabc.mobile.dummy.Searchvalidate.libraryAndAllSearchvalidate.png' width='300' &gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=''&gt;Download Video&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href='testArtifacts/2023-12-22-17:57:29.604-com.dummyabc.mobile.dummy.Searchvalidate.libraryAndAllSearchvalidate.png'&gt;Download Screenshot&lt;/a&gt;&lt;a href='testArtifacts/2023-12-22-17:57:29.604-com.dummyabc.mobile.dummy.Searchvalidate.libraryAndAllSearchvalidate.xml'&gt;Download Page Source&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testRecentSearchHistory" time="206.962">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13414537'&gt;C13414537: Validate that user's searches are saved&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testSearchSuggestionCounts" time="201.059">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13331605'&gt;C13331605: Verify Search UI&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13331618'&gt;C13331618: Verify that there will be 10 suggestion at max.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13331614'&gt;C13331614: Check Search Suggestion Functionality.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13331615'&gt;C13331615: Check UI when cancelling any type text from Search Bar by tapping X.&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="libraryAndAllSearchvalidate" time="190.200">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: Search String: J.K. Rowling, Expected Title: The Ickabog, Search Type: ALL,&lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993256'&gt;C12993256: Search content which is available in Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993258'&gt;C12993258: Search a string which is not searchable.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358253'&gt;C13358253: "No Results Found" should be displayed in My Library Results if the keyword doesn't match for any books present in the Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993997'&gt;C12993997: Search library with matching query&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993261'&gt;C12993261: Verify search navigation from Library Screen.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993259'&gt;C12993259: Search by Author name.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/2299817'&gt;C2299817: Verify UI&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358304'&gt;C13358304: Verify upon clicking any book in Results user lands on the PDP page.&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="libraryAndAllSearchvalidate" time="203.708">
+    <failure message="Pdp screen for title The New York Times not displayed. expected [true] but found [false]" type="java.lang.AssertionError">
+      java.lang.AssertionError: Pdp screen for title The New York Times not displayed. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.dummyabc.mobile.dummy.Searchvalidate.libraryAndAllSearchvalidate(Searchvalidate.java:629)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.validateInvoker.invokeMethod(validateInvoker.java:598)
+at org.testng.internal.validateInvoker.invokevalidateMethod(validateInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.validateInvoker$MethodInvocationAgent.invoke(validateInvoker.java:824)
+at org.testng.internal.validateInvoker.invokevalidateMethods(validateInvoker.java:146)
+at org.testng.internal.validateMethodWorker.invokevalidateMethods(validateMethodWorker.java:146)
+at org.testng.internal.validateMethodWorker.run(validateMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.validateRunner.privateRun(validateRunner.java:794)
+at org.testng.validateRunner.run(validateRunner.java:596)
+at org.testng.SuiteRunner.runvalidate(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.validateNG.runSuitesSequentially(validateNG.java:1212)
+at org.testng.validateNG.runSuitesLocally(validateNG.java:1134)
+at org.testng.validateNG.runSuites(validateNG.java:1063)
+at org.testng.validateNG.run(validateNG.java:1031)
+at org.testng.validateNG.privateMain(validateNG.java:1365)
+at org.testng.validateNG.main(validateNG.java:1329)
+
+    </failure>
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: Search String: The New York Times, Expected Title: The New York Times Digest, Search Type: LIBRARY,&lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993256'&gt;C12993256: Search content which is available in Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993258'&gt;C12993258: Search a string which is not searchable.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358253'&gt;C13358253: "No Results Found" should be displayed in My Library Results if the keyword doesn't match for any books present in the Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993997'&gt;C12993997: Search library with matching query&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993261'&gt;C12993261: Verify search navigation from Library Screen.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993259'&gt;C12993259: Search by Author name.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/2299817'&gt;C2299817: Verify UI&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358304'&gt;C13358304: Verify upon clicking any book in Results user lands on the PDP page.&lt;/a&gt;&lt;br&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;video width='300' controls&gt;&lt;source src='' type=''&gt;&lt;/video&gt;&lt;/td&gt;&lt;td&gt;&lt;img src='testArtifacts/2023-12-22-18:01:02.289-com.dummyabc.mobile.dummy.Searchvalidate.libraryAndAllSearchvalidate.png' width='300' &gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=''&gt;Download Video&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href='testArtifacts/2023-12-22-18:01:02.289-com.dummyabc.mobile.dummy.Searchvalidate.libraryAndAllSearchvalidate.png'&gt;Download Screenshot&lt;/a&gt;&lt;a href='testArtifacts/2023-12-22-18:01:02.289-com.dummyabc.mobile.dummy.Searchvalidate.libraryAndAllSearchvalidate.xml'&gt;Download Page Source&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testRemoveRecentSearchHistory" time="202.141">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13414539'&gt;C13414539: Validate that Clear All and Per Item clear works as expected&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13861006'&gt;C13861006: Verify that if If the user taps to clear recent searches, the keyboard remains active on screen&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="libraryAndAllSearchvalidate" time="226.453">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: Search String: rowling, Expected Title: Harry Potter and the Chamber of Secrets, Search Type: ALL,&lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993256'&gt;C12993256: Search content which is available in Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993258'&gt;C12993258: Search a string which is not searchable.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358253'&gt;C13358253: "No Results Found" should be displayed in My Library Results if the keyword doesn't match for any books present in the Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993997'&gt;C12993997: Search library with matching query&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993261'&gt;C12993261: Verify search navigation from Library Screen.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993259'&gt;C12993259: Search by Author name.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/2299817'&gt;C2299817: Verify UI&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358304'&gt;C13358304: Verify upon clicking any book in Results user lands on the PDP page.&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="libraryAndAllSearchvalidate" time="298.059">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: Search String: gary grotter, Expected Title: , Search Type: ALL,&lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993256'&gt;C12993256: Search content which is available in Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993258'&gt;C12993258: Search a string which is not searchable.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358253'&gt;C13358253: "No Results Found" should be displayed in My Library Results if the keyword doesn't match for any books present in the Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993997'&gt;C12993997: Search library with matching query&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993261'&gt;C12993261: Verify search navigation from Library Screen.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993259'&gt;C12993259: Search by Author name.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/2299817'&gt;C2299817: Verify UI&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358304'&gt;C13358304: Verify upon clicking any book in Results user lands on the PDP page.&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testCancelSearch" time="205.412">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993263'&gt;C12993263: Cancel Search&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358255'&gt;C13358255: Verify if appropriate Search results are displayed based on the search text.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358306'&gt;C13358306: Verify that the search text and results remain the same when user clicks on the back button from PDP.&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testSearchFromAppHome" time="238.380">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993260'&gt;C12993260: Verify search navigation from App Home Screen.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13331624'&gt;C13331624: Verify Search Suggestion Functionality should work fine and app should not crash when typing special characters or long string in Search Text Box&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="libraryAndAllSearchvalidate" time="217.347">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: Search String: Harry Potter, Expected Title: Harry Potter and the Chamber, Search Type: ALL,&lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993256'&gt;C12993256: Search content which is available in Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993258'&gt;C12993258: Search a string which is not searchable.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358253'&gt;C13358253: "No Results Found" should be displayed in My Library Results if the keyword doesn't match for any books present in the Library.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993997'&gt;C12993997: Search library with matching query&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993261'&gt;C12993261: Verify search navigation from Library Screen.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/12993259'&gt;C12993259: Search by Author name.&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/2299817'&gt;C2299817: Verify UI&lt;/a&gt;&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358304'&gt;C13358304: Verify upon clicking any book in Results user lands on the PDP page.&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testSearchUIAndPromotedFilter" time="206.350">
+    <system-out>
+    Current Marketplace: US&lt;br&gt;
+Parameters: &lt;br&gt;
+Build Url: https://dummyurl.dummyabc.com/job/mobile-ui-tests/job/mobile-ui-test/31382/&lt;br&gt;
+Configuration: nightly--dummy-app-home-search-test--US&lt;br&gt;
+validateRailID &lt;a href='https://dummyurl.dummyabc.dummyurl/index.php?/cases/view/13358735'&gt;C13358735: Verify Sort &amp; Filter UI on Search Results page&lt;/a&gt;&lt;br&gt;
+  </system-out>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testAudiobookLensSortAndFilters">
+    <skipped/>
+    <system-out/>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testIncludedInMyLibraryResults">
+    <skipped/>
+    <system-out/>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testSearchFromMultipartBook">
+    <skipped/>
+    <system-out/>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testPodcastLensSortAndFilters">
+    <skipped/>
+    <system-out/>
+  </testcase>
+  <testcase classname="com.dummyabc.mobile.dummy.Searchvalidate" name="testSearchSuggestionWithPrivatePoolAccount">
+    <skipped/>
+    <system-out/>
+  </testcase>
+</testsuite>
